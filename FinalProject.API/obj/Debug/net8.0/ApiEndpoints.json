@@ -1,0 +1,655 @@
+[
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/v1/Accounts/AllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/v1/Accounts/ChangePassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.AppUserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Accounts/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.AppUserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "GetUserByEmail",
+    "RelativePath": "api/v1/Accounts/UserByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.AccountsController",
+    "Method": "GetUserByUsername",
+    "RelativePath": "api/v1/Accounts/UserByUsername",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllCategories"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetCategoryById"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/v1/Categories/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.CategoryCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateCategory"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "HardDeleteCategory",
+    "RelativePath": "api/v1/Categories/HardDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "HardDeleteCategory"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "RecoverCategory",
+    "RelativePath": "api/v1/Categories/Recover",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "RecoverCategory"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "SoftDeleteCategory",
+    "RelativePath": "api/v1/Categories/SoftDelete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SoftDeleteCategory"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.CategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/v1/Categories/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.CategoryUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateCategory"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Colors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllColors"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Colors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetColorById"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "CreateColor",
+    "RelativePath": "api/v1/Colors/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.ColorCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateColor"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "HardDeleteColor",
+    "RelativePath": "api/v1/Colors/HardDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "HardDeleteColor"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "RecoverColor",
+    "RelativePath": "api/v1/Colors/Recover",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "RecoverColor"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "SoftDeleteColor",
+    "RelativePath": "api/v1/Colors/SoftDelete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SoftDeleteColor"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ColorsController",
+    "Method": "UpdateColor",
+    "RelativePath": "api/v1/Colors/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.ColorUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateColor"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllProducts"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetProductById"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/v1/Products/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Group",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountedPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColorId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SizeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Thumbnail",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateProduct"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "HardDeleteProduct",
+    "RelativePath": "api/v1/Products/HardDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "HardDeleteProduct"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "RecoverProduct",
+    "RelativePath": "api/v1/Products/Recover",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "RecoverProduct"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "SoftDeleteProduct",
+    "RelativePath": "api/v1/Products/SoftDelete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SoftDeleteProduct"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/v1/Products/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Group",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DiscountedPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColorId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SizeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Thumbnail",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateProduct"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Sizes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllSizes"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Sizes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetSizeById"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "CreateSize",
+    "RelativePath": "api/v1/Sizes/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.SizeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateSize"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "HardDeleteSize",
+    "RelativePath": "api/v1/Sizes/HardDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "HardDeleteSize"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "RecoverSize",
+    "RelativePath": "api/v1/Sizes/Recover",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "RecoverSize"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "SoftDeleteSize",
+    "RelativePath": "api/v1/Sizes/SoftDelete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SoftDeleteSize"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.SizesController",
+    "Method": "UpdateSize",
+    "RelativePath": "api/v1/Sizes/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinalProject.BL.DTOs.SizeUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateSize"
+  },
+  {
+    "ContainingType": "FinalProject.API.Controllers.UploadsController",
+    "Method": "GetFile",
+    "RelativePath": "api/v1/Uploads/uploads/{paths}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paths",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

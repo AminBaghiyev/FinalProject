@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\productsThumbnails\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>FinalProject.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FinalProject.API</BasePath>
+      <RelativePath>uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>objz9rvkja</Fingerprint>
+      <Integrity>lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\productsThumbnails\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

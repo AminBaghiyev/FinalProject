@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg",
+      "PackagePath": "staticwebassets\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProject.API.props",
+      "PackagePath": "build\\FinalProject.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject.API.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProject.API.props",
+      "PackagePath": "buildTransitive\\FinalProject.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

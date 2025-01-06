@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "6M1LN6WcoOxnAgZ7EWa4IZKmZffxjRPb422g+Dm4ea0=",
+  "Source": "FinalProject.API",
+  "BasePath": "_content/FinalProject.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FinalProject.API\\wwwroot",
+      "Source": "FinalProject.API",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\",
+      "BasePath": "_content/FinalProject.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg",
+      "SourceId": "FinalProject.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\",
+      "BasePath": "_content/FinalProject.API",
+      "RelativePath": "uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "objz9rvkja",
+      "Integrity": "lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.objz9rvkja.svg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "objz9rvkja"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\FinalProject\\FinalProject.API\\wwwroot\\uploads\\productsThumbnails\\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/FinalProject.API/uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.objz9rvkja.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\productsThumbnails\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"objz9rvkja"},{"Name":"integrity","Value":"sha256-lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8="},{"Name":"label","Value":"_content/FinalProject.API/uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1987"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Jan 2025 00:30:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FinalProject.API/uploads/productsThumbnails/b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\productsThumbnails\b73193a2-9ab7-407e-af92-32b1c2d123cdPepsi_2023.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1987"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022lDHa5Wo2KIEUnBj12aNu7Y5odadzQgVzYvCypw6kQP8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Jan 2025 00:30:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
